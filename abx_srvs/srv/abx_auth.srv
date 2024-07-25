@@ -1,0 +1,15 @@
+time stamp
+string username
+string password
+string clientIp
+string serverIp
+string sessionId
+int32[] extInts
+string[] extStrs
+---
+int32  result
+string details
+bool authenticated
+string privilege
+int32[] extInts
+string[] extStrs

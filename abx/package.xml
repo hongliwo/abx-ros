@@ -1,0 +1,24 @@
+<package>
+  <name>abx</name>
+  <version>1.0.0</version>
+  <description>
+    Metapackage for core of abx.
+  </description>
+  <author>Henry</author>
+  <maintainer email="henry@abx.com">Henry Wang</maintainer>
+  <license>BSD</license>
+  <url>http://www.abx.com</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>abx_msgs</build_depend>
+  <build_depend>abx_srvs</build_depend>
+
+  <run_depend>roscpp</run_depend>
+  <run_depend>abx_msgs</run_depend>
+  <run_depend>abx_srvs</run_depend>
+
+  <!--export>
+   <metapackage/>
+  </export-->
+</package>
