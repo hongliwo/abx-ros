@@ -1,2 +1,0 @@
-demo-channel,Master,ap-southeast-1,arn:aws:kinesisvideo:ap-southeast-1:236443369046:channel/demo-channel/1683908081901,https://r-d2838eda.kinesisvideo.ap-southeast-1.amazonaws.com,wss://m-579da5db.kinesisvideo.ap-southeast-1.amazonaws.com,0,,,1727581294
-demo-channel,Master,cn-north-1,arn:aws-cn:kinesisvideo:cn-north-1:384950830220:channel/demo-channel/1691121740818,https://r-f9968007.kinesisvideo.cn-north-1.amazonaws.com.cn,wss://m-38cfd552.kinesisvideo.cn-north-1.amazonaws.com.cn,0,,,1727617064
