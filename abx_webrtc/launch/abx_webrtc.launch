@@ -1,0 +1,5 @@
+<launch>
+
+	<!--include file="$(find bsp_auth)/launch/bsp_auth.launch" /-->
+
+</launch>

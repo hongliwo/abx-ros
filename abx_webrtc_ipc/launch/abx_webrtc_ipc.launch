@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+
+	<!--include file="$(find bsp_auth)/launch/bsp_auth.launch" /-->
+
+	<node pkg="abx_webrtc_ipc" type="abx_webrtc_ipc" name="abx_webrtc_ipc" respawn="true" output="screen" />
+
+</launch>

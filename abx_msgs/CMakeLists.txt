@@ -10,7 +10,9 @@ add_message_files(
   DIRECTORY msg
   FILES
 
-  BspVersion.msg
+  AbxVersion.msg
+  AbxVideo.msg
+  AbxAudio.msg
 )
 
 generate_messages(DEPENDENCIES

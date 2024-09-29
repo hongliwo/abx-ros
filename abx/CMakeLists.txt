@@ -3,6 +3,8 @@ project(abx)
 
 add_compile_options(-std=c++11)
 
+set(CMAKE_VERBOSE_MAKEFILE ON)
+
 find_package(
     catkin
     REQUIRED
@@ -23,6 +25,11 @@ catkin_package(
 include_directories(
     ${catkin_INCLUDE_DIRS}
     include
+)
+
+link_directories(
+    ${catkin_LIB_DIRS}
+    lib
 )
 
 add_executable(${PROJECT_NAME}
