@@ -57,9 +57,12 @@ target_link_libraries(${PROJECT_NAME}
   kvspicState
   kvspicUtils
   -Wl,--whole-archive
-  /home/pi/catkin/src/abx/abx_webrtc/lib/libmbedcrypto.a
-  /home/pi/catkin/src/abx/abx_webrtc/lib/libmbedtls.a
-  /home/pi/catkin/src/abx/abx_webrtc/lib/libmbedx509.a
+  #/home/pi/catkin/src/abx/abx_webrtc/lib/libmbedcrypto.a
+  #/home/pi/catkin/src/abx/abx_webrtc/lib/libmbedtls.a
+  #/home/pi/catkin/src/abx/abx_webrtc/lib/libmbedx509.a
+  mbedcrypto
+  mbedtls
+  mbedx509
   -Wl,--no-whole-archive
 )
 
