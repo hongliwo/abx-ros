@@ -72,6 +72,7 @@ target_link_libraries(${PROJECT_NAME}
   IotSecureTunneling-cpp
   IotShadow-cpp
   s2n
+  dl
   -Wl,--no-whole-archive
 )
 
