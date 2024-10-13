@@ -3,6 +3,6 @@
 
 	<!--include file="$(find bsp_auth)/launch/bsp_auth.launch" /-->
 
-	<node pkg="abx_webrtc_ipc" type="abx_webrtc_ipc" name="abx_webrtc_ipc" respawn="true" output="screen" />
+	<node pkg="abx_iot" type="abx_iot" name="abx_iot" respawn="true" output="screen" />
 
 </launch>
