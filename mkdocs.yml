@@ -1,0 +1,83 @@
+# Project information
+site_name: abx-ros
+site_url: https://hongliwo.github.io/abx-ros
+site_author: hongliwo
+
+# Repository
+repo_name: abx-ros
+repo_url: https://github.com/hongliwo/abx-ros
+edit_uri: edit/main/docs
+docs_dir: docs
+
+# Navigation
+#nav:
+#  - Welcome:
+#    - Overview: README.md 
+#  - Steps:
+#    - 1 MkDocs
+#    - 2 Verify
+#    - 3 Setup
+
+## DO NOT CHANGE BELOW THIS LINE
+
+# Copyright
+# TBD
+
+# Theme
+theme:
+  name: material
+  font:
+    text: IBM Plex Sans
+    code: IBM Plex Mono
+  icon:
+    logo: material/library
+  features:
+    # - navigation.tabs
+    - navigation.instant
+    - navigation.expand
+  palette:
+    scheme: default
+    primary: blue
+    accent: blue
+
+# Plugins
+plugins:
+  - search
+
+# Customization
+# TBD
+
+# Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
