@@ -1,6 +1,6 @@
 ---
 
-## Others
+## Others Test
 
 ---
 ### Does SwitchBot Bot connect to multiple Hubs?
